@@ -15,12 +15,12 @@ thingsRef = db.collection('things')
 
 unsubscribe = thingsRef
 
-.orderBy('createdAt') // Requires a query
-            .onSnapshot(querySnapshot => {
-                // Map results to an array of li elements
-                const items = querySnapshot.docs.map(doc => {
-                    return `<li>${doc.data().image}</li>`
-                });
-                thingsList.innerHTML = items.join('');
+    .orderBy('createdAt') // Requires a query
+    .onSnapshot(querySnapshot => {
+        // Map results to an array of li elements
+        const items = querySnapshot.docs.map(doc => {
+            return `<li>${doc.data().image}</li>`
+        });
+        thingsList.innerHTML = items.join('');
 
-            });
+    });
