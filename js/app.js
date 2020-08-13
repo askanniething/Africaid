@@ -21,13 +21,17 @@ unsubscribe = thingsRef
         const items = querySnapshot.docs.map(doc => {
             return `${doc.data().image}`
         });
-        const images = document.getElementsByClassName("img");
+        const links = querySnapshot.docs.map(doc => {
+            return `${doc.data().link}`
+        });
+        const images = document.getElementsByClassName("advertisement");
         var num = items.length;
         var ind;
         for (const element of images) {
             ind = Math.floor((Math.random() * num)); //random from 0-(num-1)
-            console.log(items[ind]);
-            element.src = items.splice(ind, 1);
+            console.log(items[ind] + " ! " + links[ind]);
+            element.children[0].src = items.splice(ind, 1);
+            element.href = links.splice(ind, 1);
             num--;
         }
 
