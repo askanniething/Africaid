@@ -22,8 +22,8 @@ unsubscribe = thingsRef
             return `${doc.data().image}`
         });
         const images = document.getElementsByClassName("img");
-        var num = 3; //total number of images in the database
-        var ind; //index taken for rng
+        var num = 20;
+        var ind;
         for (const element of images) {
             ind = Math.floor((Math.random() * num)); //random from 0-(num-1)
             console.log(items[ind]);
