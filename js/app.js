@@ -19,8 +19,16 @@ unsubscribe = thingsRef
     .onSnapshot(querySnapshot => {
         // Map results to an array of li elements
         const items = querySnapshot.docs.map(doc => {
-            return `<li>${doc.data().image}</li>`
+            return `${doc.data().image}`
         });
-        thingsList.innerHTML = items.join('');
+        const images = document.getElementsByClassName("img");
+        var num = 3; //total number of images in the database
+        var ind; //index taken for rng
+        for (const element of images) {
+            ind = Math.floor((Math.random() * num)); //random from 0-(num-1)
+            console.log(items[ind]);
+            element.src = items.splice(ind, 1);
+            num--;
+        }
 
     });
