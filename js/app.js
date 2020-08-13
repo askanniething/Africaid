@@ -22,7 +22,7 @@ unsubscribe = thingsRef
             return `${doc.data().image}`
         });
         const images = document.getElementsByClassName("img");
-        var num = 20;
+        var num = items.length;
         var ind;
         for (const element of images) {
             ind = Math.floor((Math.random() * num)); //random from 0-(num-1)
