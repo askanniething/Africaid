@@ -9,4 +9,4 @@ Companies who want to sponsor ads can learn more on our website and even submit 
 As well, Africaid can be used to educate and raise awareness about issues in Africa, such as illiteracy or poverty. We also promote critical social issues and small businesses. 
  
 ## How we Built It
-We coded Africiad primarily using HTML, CSS and JS. To host images, we also connected the extension and website to Google Firebase. The site is currently hosted on GitHub. Cloud Firestore hosts the list of pictures and redirect links. 
+We coded Africaid primarily using HTML, CSS and JS. To host images, we also connected the extension and website to Google Firebase. The site is currently hosted on GitHub. Cloud Firestore hosts the list of pictures and redirect links. 
