@@ -40,6 +40,7 @@ img {
     border-top: 0.5px solid #dadada;
     height: 50px;
     width: 100%;
+    align-self: center;
 }
 
 .logo {
@@ -75,4 +76,9 @@ img {
 .flex .fa {
     font-size: 40px;
     color: #2f5876;
+}
+
+.links{
+    color: #2f5876 !important;
+    font-weight:bold;
 }
