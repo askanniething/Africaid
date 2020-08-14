@@ -10,3 +10,10 @@ As well, Africaid can be used to educate and raise awareness about issues in Afr
  
 ## How we Built It
 We coded Africaid primarily using HTML, CSS and JS. To host images, we also connected the extension and website to Google Firebase. The site is currently hosted on GitHub. Cloud Firestore hosts the list of pictures and redirect links. 
+
+## How to install
+At the moment, consumers will be able to install Africaid by downloading it on our GitHub repository at https://github.com/askanniething/Africaid and loading it onto their list of extensions. From then on, our extension can control their new tabs. 
+
+## What’s next our project
+In the future, we hope to add Africaid to the Google Chrome extension store. As well, we may be looking into sponsorships for ads and more secure methods of hosting our files. 
+
