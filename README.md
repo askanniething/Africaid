@@ -1,4 +1,5 @@
 # Africaid
+A chrome extension that generates ad revenue for relevant charities.
  
 ## Inspiration
 We were inspired to create Africaid based on pre-existing platforms that rely on sponsorship or ad-based revenue, such as Ecosia. 
